@@ -9,6 +9,8 @@ Up until 2026, this project was in its own private repository. Since it represen
 ## How do I use it?
 If you find yourself really wanting to clone or fork this, it's a straightforward Express project that relies on SQLite databases. I wrote a quick guide on how to format the database for my friend about a year ago.
 
+This project also requires a .env file with one environment variable, `FETCH_BASE`. This is the path to the highest level of your REST API. (In my case, it's `https://tails.gradia.wiki/api`, of course.)
+
 ### Really important stuff
 * **Primary keys are 1-indexed,** meaning they start at 1, **not 0.**
 
